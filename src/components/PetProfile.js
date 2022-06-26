@@ -24,7 +24,7 @@ export default function PetProfile(props) {
   }
 
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="card w-96 bg-base-100 shadow-xl border-solid">
       <figure>
         <div className="avatar">
           <div className="w-25">
@@ -53,7 +53,7 @@ export default function PetProfile(props) {
                 d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
               />
             </svg>
-            Like {pet.likes || 0}
+           {pet.likes || 0}
           </button>
         </div>
       </div>
